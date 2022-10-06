@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+# Este script genera un diccionario base que sirve como mapeo para descifrar el mensaje basado en el analisis de frecuencias.
+# Se debe introducir en la variable texto el mensaje a desencpritar y tras ejecutarlo con "$python3 archivo2.py" mostrara por
+# pantalla el valor de una variable letras que será un diccionario a introducir en otro script. Ese diccionario lo pegaremos para sobrescribir el valor
+# de esa misma variable en el script "archivo.py", que será el encargado de aplicar el mapeo de letras en el texto.
+
 texto = "cdcuvgeg eqp ncu pqtocu pgeguctkcu. Jcdncoqu fg wp rcÍu rctckuqoÁvkeq gp gn swg c wpq ng ecgp rgfcbqu fg htcugu cucfcu gp nc dqec. Pk ukswkgtc nqu vqfqrqfgtququ ukipqu fg rwpvwcekÓp fqokpcp c nqu vgzvqu ukowncfqu; wpc xkfc, ug rwgfg fgekt, rqeq qtvqitÁhkec."
 frecuencias = {
 'A' : 0,
